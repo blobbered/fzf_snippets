@@ -1,0 +1,33 @@
+====================================================================
+CONTENTS                                     *fzf_snippets-contents*
+
+1.Overview........|fzf_snippets|
+2.Installation
+3.Mappings
+4.License
+
+====================================================================
+1. Overview                                           *fzf_snippets*
+fzf_snippets is a light-weight snippet plugin so you save time.
+
+It depends on fzf to do quick fuzzy search on the template files.
+
+
+2. Installation
+fzf_snippets depends on the basic Vim plugin of fzf, which means you
+need to set up both "fzf" and "fzf.vim" on Vim. Here are the
+respective github repositories:
+
+  https://github.com/junegunn/fzf
+  https://github.com/junegunn/fzf.vim
+
+
+3. Mappings
+<F2>..............................................:FzfInsertTemplate
+  opens the template finder (searches the
+  `./snippets` directory). The default mapping is <F2> to open
+  the template fuzzy search.
+
+
+4. License
+This plugin is placed in the public domain.
