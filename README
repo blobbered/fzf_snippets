@@ -1,7 +1,7 @@
 ====================================================================
 CONTENTS                                     *fzf_snippets-contents*
 
-1.Overview........|fzf_snippets|
+1.Overview..................|fzf_snippets|
 2.Installation
 3.Mappings
 4.License
@@ -10,7 +10,12 @@ CONTENTS                                     *fzf_snippets-contents*
 1. Overview                                           *fzf_snippets*
 fzf_snippets is a light-weight snippet plugin so you save time.
 
-It depends on fzf to do quick fuzzy search on the template files.
+Each file is a snippet you can then insert into your editor.
+Template files are saved in the plugin's `snippets` directory. Add
+new templates there and you can use them on the go.
+
+It depends on fzf, which is blazingly fast, to do fuzzy search on
+the template files. <3
 
 
 2. Installation
@@ -23,7 +28,7 @@ respective github repositories:
 
 
 3. Mappings
-<F2>..............................................:FzfInsertTemplate
+<F2>........................:FzfInsertTemplate
   opens the template finder (searches the
   `./snippets` directory). The default mapping is <F2> to open
   the template fuzzy search.
