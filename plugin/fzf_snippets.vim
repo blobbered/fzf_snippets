@@ -8,7 +8,7 @@ if exists("g:loaded_codetemplates")
 endif
 let g:loaded_codetemplates = 1
 
-let s:templates_dir = expand('<sfile>:p:h') . "/snippets/"
+let s:templates_dir = expand('<sfile>:p:h') . "/../snippets/"
 
 function s:FzfInsertTemplate()
   let s:selected_template = call('fzf#run', [{'dir': s:templates_dir}])[0]
